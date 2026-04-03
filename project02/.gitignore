@@ -1,0 +1,7 @@
+kicad/project02-backups/
+
+*.hex
+*.o
+*.bin
+compile_commands.json
+
