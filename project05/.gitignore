@@ -1,0 +1,10 @@
+kicad/project05-backups/
+.cache
+
+*.hex
+*.o
+*.bin
+*.bak
+*.lck
+compile_commands.json
+
