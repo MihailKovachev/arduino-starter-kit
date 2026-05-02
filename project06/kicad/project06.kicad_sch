@@ -1111,30 +1111,6 @@
 				)
 			)
 			(symbol "PKM22EPPH40S1-B0_0_1"
-				(polyline
-					(pts
-						(xy 0.889 1.905) (xy 1.397 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 2.159) (xy 1.143 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start 2.54 3.175)
 					(mid 5.7012 0)
@@ -1164,7 +1140,7 @@
 				(pin passive line
 					(at 0 2.54 0)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1182,7 +1158,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "-"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1332,88 +1308,6 @@
 			(type default)
 		)
 		(uuid "f7715c47-aab0-4fc4-8fe6-2fe167128c28")
-	)
-	(symbol
-		(lib_id "project06:PKM22EPPH40S1-B0")
-		(at 109.22 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6348cc63-5067-4d6f-bc30-ce5f17e4c419")
-		(property "Reference" "BZ1"
-			(at 102.87 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PKM22EPPH40S1-B0"
-			(at 102.87 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e91fe97f-1a93-487c-b087-c271769e95bc")
-		)
-		(pin "2"
-			(uuid "4b6e9f92-de8b-46a6-a093-b2f4d5fad34f")
-		)
-		(instances
-			(project "project06"
-				(path "/18797be0-0e67-42bb-9ec4-ce2a0bfa4ce3"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_UNO_R3")
@@ -1665,6 +1559,88 @@
 			(project "project06"
 				(path "/18797be0-0e67-42bb-9ec4-ce2a0bfa4ce3"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project06:PKM22EPPH40S1-B0")
+		(at 109.22 88.9 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac79eeb3-789f-4a4b-a9f4-ddec6a18629b")
+		(property "Reference" "BZ1"
+			(at 102.87 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PKM22EPPH40S1-B0"
+			(at 102.87 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "39ed1708-e48b-4ac2-8f14-d585c52438e1")
+		)
+		(pin "1"
+			(uuid "436c97dc-2ca0-4725-94b4-36a8bb5e235d")
+		)
+		(instances
+			(project "project06"
+				(path "/18797be0-0e67-42bb-9ec4-ce2a0bfa4ce3"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)

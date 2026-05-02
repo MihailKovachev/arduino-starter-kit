@@ -62,30 +62,6 @@
 			)
 		)
 		(symbol "PKM22EPPH40S1-B0_0_1"
-			(polyline
-				(pts
-					(xy 0.889 1.905) (xy 1.397 1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.143 2.159) (xy 1.143 1.651)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
 				(start 2.54 3.175)
 				(mid 5.7012 0)
@@ -115,7 +91,7 @@
 			(pin passive line
 				(at 0 2.54 0)
 				(length 2.54)
-				(name "+"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -133,7 +109,7 @@
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 2.54)
-				(name "-"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
