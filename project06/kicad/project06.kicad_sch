@@ -1241,13 +1241,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 109.22 86.36)
+			(xy 109.22 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6017a6e4-d01d-4966-94ae-6c50cc776df0")
+		(uuid "75be6ff4-8be7-484c-83ed-3516d63e3cf5")
 	)
 	(wire
 		(pts
@@ -1271,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 109.22 114.3)
+			(xy 109.22 93.98) (xy 109.22 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1566,7 @@
 	)
 	(symbol
 		(lib_id "project06:PKM22EPPH40S1-B0")
-		(at 109.22 88.9 0)
+		(at 109.22 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1577,17 +1577,6 @@
 		(dnp no)
 		(uuid "ac79eeb3-789f-4a4b-a9f4-ddec6a18629b")
 		(property "Reference" "BZ1"
-			(at 102.87 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PKM22EPPH40S1-B0"
 			(at 102.87 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,8 +1587,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "PKM22EPPH40S1-B0"
+			(at 102.87 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 109.22 88.9 0)
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1610,7 +1610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 88.9 0)
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1621,7 +1621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 88.9 0)
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -30,7 +30,7 @@ void setup() {
 void loop() {
   phototransistorValue = analogRead(A0);
   int pitch = map(phototransistorValue, phototransistorMin, phototransistorMax, 50, 4000);
-  tone(8, pitch, 20);
+  tone(9, pitch, 20);
   delay(10);
 
 }
