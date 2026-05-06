@@ -1,10 +1,6 @@
-kicad/project05-backups/
-.cache
+.pio
+.vscode/
 
-*.hex
-*.o
-*.bin
+kicad/.history/
+kicad/project07-backups/
 *.bak
-*.lck
-compile_commands.json
-
